@@ -7,6 +7,10 @@ public class ItemSeparado {
 	private Integer qtde;
 	private Integer codigoPedido;
 	
+	protected ItemSeparado (){
+		
+	}
+	
 	public ItemSeparado(String nomeCliente, Produto produto, Integer qtde, Integer codigoPedido) {
 		super();
 		this.nomeCliente = nomeCliente;
@@ -45,6 +49,12 @@ public class ItemSeparado {
 
 	public void setCodigoPedido(Integer codigoPedido) {
 		this.codigoPedido = codigoPedido;
+	}
+
+	@Override
+	public String toString() {
+		return "ItemSeparado [nomeCliente=" + nomeCliente + ", produto=" + produto + ", qtde=" + qtde
+				+ ", codigoPedido=" + codigoPedido + "]";
 	}
 	
 }

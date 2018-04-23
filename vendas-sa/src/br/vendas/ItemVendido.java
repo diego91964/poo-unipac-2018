@@ -21,6 +21,11 @@ public class ItemVendido extends ItemSeparado{
 	public void setDataVenda(Date dataVenda) {
 		this.dataVenda = dataVenda;
 	}
+
+	@Override
+	public String toString() {
+		return "ItemVendido [dataVenda=" + dataVenda + "]";
+	}
 	
 	
 }

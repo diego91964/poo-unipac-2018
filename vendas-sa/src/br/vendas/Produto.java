@@ -31,5 +31,10 @@ public class Produto {
 	public void setVlVenda(float vlVenda) {
 		this.vlVenda = vlVenda;
 	}
+	@Override
+	public String toString() {
+		return "Produto [descricao=" + descricao + ", codBarras=" + codBarras + ", vlCompra=" + vlCompra + ", vlVenda="
+				+ vlVenda + "]";
+	}
 	
 }

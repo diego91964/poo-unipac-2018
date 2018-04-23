@@ -18,6 +18,12 @@ public class ItemEstoque {
 		this.qtdeProduto = qtdeProduto;
 	}
 	
+	@Override
+	public String toString() {
+		return "ItemEstoque [produto=" + produto + ", qtdeProduto=" + qtdeProduto + "]";
+	}
+	
+	
 	
 		
 }
