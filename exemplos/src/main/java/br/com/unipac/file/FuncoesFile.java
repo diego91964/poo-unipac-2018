@@ -5,7 +5,6 @@ import java.io.File;
 public class FuncoesFile {
 
 	public static final String BASE_PATH = "/tmp";
-	public static final String ARQUIVO_TESTE = "file-teste.txt";
 	
 	public static void main(String[] args) {
 		 
